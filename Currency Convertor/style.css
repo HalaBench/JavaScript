@@ -1,0 +1,101 @@
+/* CSS FOR CURRENCY CONVERTER*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 800px;
+    background-color: rgba(72, 58, 194, 0.74);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 30vh;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding-top: 25px;
+}
+
+.inputdiv{
+    width: 30vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    font-size: larger;
+}
+.btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#from{
+    width: 20%;
+    height: 35px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: large;
+}
+
+#to{
+    width: 20%;
+    height: 35px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: large;
+}
+
+#convert{
+    width: 50%;
+    height: 35px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: large;
+    background-color: #2a0731;
+    color: #f5f5f5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#convert:hover{
+    background-color: #762186;
+}
+
+#result{
+    padding-bottom: 45px;
+    font-size: 2rem;
+}
+
